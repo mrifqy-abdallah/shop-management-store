@@ -1,0 +1,79 @@
+﻿@import "site.mixins.less";
+
+
+.s-Master-StoresDialog {
+    > .size { width: 650px; }
+    .caption { width: 150px; }
+}
+
+.s-Master-WorkersDialog {
+    > .size { width: 650px; }
+    .caption { width: 150px; }
+}
+
+.s-Master-ManagersDialog {
+    > .size { width: 650px; }
+    .caption { width: 150px; }
+}
+
+.s-Master-CustomersDialog {
+    > .size { width: 650px; }
+    .caption { width: 150px; }
+}
+
+.s-Master-ProductCategoriesDialog {
+    > .size { width: 650px; }
+    .caption { width: 150px; }
+}
+
+.s-Master-ProductVendorsDialog {
+    > .size { width: 650px; }
+    .caption { width: 150px; }
+}
+
+.s-Master-ProductsDialog {
+    > .size { width: 650px; }
+    .caption { width: 150px; }
+}
+
+//
+.s-Master-ProductsGrid {
+    .slick-header-columns {
+        white-space: normal;
+        height: 45px;
+        border-bottom: 2px solid #ccc;
+    }
+    .slick-header-column.ui-state-default {
+        height: 100%;
+    }
+
+    .out-of-stock .slick-cell, .out-of-stock .slick-cell a {
+        background-color: #ffaaaa;
+        color: red;
+    }
+    .critical-stock {
+        background-color: #ffd5c0;
+        .slick-cell, .slick-cell a {
+            color: black;
+        }
+    }
+    .low-stock {
+        .slick-cell, .slick-cell a {
+            font-style: italic;
+        }
+    }
+}
+
+//
+.s-Master-OrdersDialog {
+    > .size { width: 650px; height: 500px; }
+    .caption { width: 150px; }
+    .grid-container { min-height: 240px; }
+}
+
+//+ "Edit"
+.s-Master-OrderDetailsEditDialog {
+    > .size { width: 450px; }
+    .caption { width: 120px; }
+    .s-PropertyGrid .categories { height: 120px; }
+}

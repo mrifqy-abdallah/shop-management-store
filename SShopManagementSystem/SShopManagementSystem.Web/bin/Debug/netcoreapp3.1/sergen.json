@@ -1,0 +1,72 @@
+{
+  "RootNamespace": "SShopManagementSystem",
+  "ServerTypings": {
+    "Assemblies": [],
+    "LocalTexts": true
+  },
+  "Connections": [
+    {
+      "Key": "Default",
+      "Tables": [
+        {
+          "Tablename": "customers",
+          "Identifier": "Customers",
+          "Module": "Master",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "managers",
+          "Identifier": "Managers",
+          "Module": "Master",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "order_list",
+          "Identifier": "OrderDetails",
+          "Module": "Master",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "orders",
+          "Identifier": "Orders",
+          "Module": "Master",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "product_types",
+          "Identifier": "ProductCategories",
+          "Module": "Master",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "product_vendors",
+          "Identifier": "ProductVendors",
+          "Module": "Master",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "products",
+          "Identifier": "Products",
+          "Module": "Master",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "stores",
+          "Identifier": "Stores",
+          "Module": "Master",
+          "PermissionKey": "Administration:General"
+        },
+        {
+          "Tablename": "workers",
+          "Identifier": "Workers",
+          "Module": "Master",
+          "PermissionKey": "Administration:General"
+        }
+      ]
+    }
+  ],
+  "BaseRowClasses": [],
+  "RemoveForeignFields": [],
+  "CustomGenerate": {},
+  "CustomSettings": {}
+}
