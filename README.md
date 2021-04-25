@@ -1,6 +1,6 @@
 # About
 This is a project that I did during my two-months internship at [ByTechnology](https://www.facebook.com/ByTechnologyIndonesia/) at Sleman, Yogyakarta.  
-This is a web-based project made using [Serenity platform](https://serenity.is/), and I designed it into a management system for shops.
+The project is web-based made using [Serenity platform](https://serenity.is/), and I designed it into a management system for shops.
 
 ## What can it do?
 Here are some things that the web can do as a shops-management-system: 
